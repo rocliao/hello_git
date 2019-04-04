@@ -14,7 +14,8 @@ public class HelloMain {
      * @param agrs 输入参数
      */
     public static void main(String[] args) {
+        System.out.println("start:");
         System.out.println("Hello " + (args.length > 0 ? args[0] : "Wolrd") + "!");
-
+        System.out.println("end!");
     }
 }
